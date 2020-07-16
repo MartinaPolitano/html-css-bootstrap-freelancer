@@ -43,27 +43,45 @@
 }
 
 .masthead-avatar {
-  width: 15rem;
+  width: 20rem;
+  padding-top: 20px;
 }
 
-.mb-5, .my-5 {
-  margin-bottom: 3rem
+.mb-0{
+  text-align: center;
+  font-weight: 900;
+  font-size: 60px;
 }
 
-img {
-    vertical-align: middle;
-    border-style: none;
+.img_container {
+  text-align: center;
+  margin-bottom: 3rem;
+  vertical-align: middle;
+  border-style: none;
 }
 
 
+}
+.divider-custom .divider-custom-line:first-child {
+    margin-right: 1rem;
+}
+
+.divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: rgb(44, 62, 80);
+    border-radius: 1rem;
+    border-color: rgb(44, 62, 80);
+  }
 .text-right {
   text-align: right;
 }
 
 /* jumbo */
 .jumbo {
-  margin-top: 70px;
   padding: 200px 0;
+  height: 800px;
 }
 .jumbo_text {
   max-width: 900px;
